@@ -17,3 +17,7 @@ jobs:
         run: |
           echo "Good"
           echo "Evening"
+      - name: Github 내장 변수 사용하기
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
